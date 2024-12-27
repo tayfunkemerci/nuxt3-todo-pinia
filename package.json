@@ -1,0 +1,30 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "mock-server": "json-server --watch server/api/db.json --port 3002",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "axios": "^1.7.9",
+    "h3": "^1.13.0",
+    "nuxt": "^3.14.1592",
+    "vue": "latest",
+    "vue-router": "latest",
+    "@nuxtjs/tailwindcss": "^6.8.0",
+    "masonry-layout": "^4.2.2",
+    "pinia": "^2.1.7",
+    "@pinia/nuxt": "^0.5.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "json-server": "^1.0.0-beta.3",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.17"
+  }
+}

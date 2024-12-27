@@ -1,0 +1,39 @@
+{
+  "categories": [
+    { "value": "work", "label": "İş" },
+    { "value": "personal", "label": "Kişisel" },
+    { "value": "shopping", "label": "Alışveriş" },
+    { "value": "others", "label": "Diğer" }
+  ],
+  "priorities": [
+    { "value": "high", "label": "Yüksek" },
+    { "value": "medium", "label": "Orta" },
+    { "value": "low", "label": "Düşük" }
+  ],
+  "tasks": [
+    {
+      "id": "1",
+      "title": "Toplantı hazırlığı yap",
+      "category": "work",
+      "priority": "high"
+    },
+    {
+      "id": "2",
+      "title": "Market alışverişi yap",
+      "category": "shopping",
+      "priority": "medium"
+    },
+    {
+      "id": "3",
+      "title": "Kitap oku",
+      "category": "personal",
+      "priority": "low"
+    },
+    {
+      "id": "4",
+      "title": "E-posta kontrol et",
+      "category": "work",
+      "priority": "medium"
+    }
+  ]
+}
